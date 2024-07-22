@@ -1,0 +1,47 @@
+.inner {
+  border: solid black;
+  width: 100px;
+  text-align: center;
+  margin-left: 295px;
+  background-color: chartreuse;
+}
+.outer {
+  border: solid black;
+  width: 400px;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: red;
+  }
+  .tab {
+    margin-left: 410px;
+    margin-top: -120px;
+  }
+  .tab1 {
+    width: 810px;
+    margin-top: 10px;
+  }
+  .inner1 {
+    margin-left: 708px;
+    border: solid black;
+    width: 100px;
+    text-align: end;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: lightgreen;
+  }
+  .laptop {
+    color: red;
+    display: flex;
+  }
+}
